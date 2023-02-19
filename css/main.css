@@ -3023,25 +3023,3 @@ section.error-404 .page-content p { font-size: 18px; margin-bottom: 30px; }
 /*------------------------------------------------------------------------------*/   
 #map { display: block; height: 550px; width: 100%; }
 
-
-
-/*------------------------------------------------------------------------------*/
-/*  Product Page
-/*------------------------------------------------------------------------------*/   
-.add_to_cart{
-    background-color: #c3002f;
-    padding: 8px 12px;
-    font-size: 14px;
-    font-weight: 600;
-    color: #fff;
-}
-
-.add_to_cart:hover{
-    color: #fff;
-}
-
-.product_price{
-    color: #c3002f;
-    font-size: 16px;
-    font-weight: 600;
-}
