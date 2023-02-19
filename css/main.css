@@ -874,6 +874,7 @@ nav.main-menu ul.menu li ul.mega-submenu li a:before ,
 .featured-imagebox-post.style1 .ttm-box-post-date ,
 .featured-imagebox-team.style1:hover .ttm-media-link,
 .breadcrumb-wrapper span:first-child:after,
+.breadcrumb-wrapper span:nth-child(2):after,
 .ttm-team-member-single-content .ttm-social-links-wrapper ul li a:hover,
 .widget.widget-nav-menu ul li a:before,
 .sidebar .widget-area .widget:after,
@@ -2595,6 +2596,24 @@ ul.footer-nav-menu li:last-child:after{
     font-style: normal;
 }
 
+.breadcrumb-wrapper span:nth-child(2){
+    padding-right: 24px;
+}
+.breadcrumb-wrapper span:nth-child(2) a{
+    color: #fff;
+}
+.breadcrumb-wrapper span:nth-child(2):after{
+    position: absolute;
+    content: "";
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    right: 10px;
+    top: 6px;
+    display: inline-block;
+    font-style: normal;
+}
+
 
 /* ===============================================
     Inner-Pages
@@ -3003,3 +3022,26 @@ section.error-404 .page-content p { font-size: 18px; margin-bottom: 30px; }
 /*  Map
 /*------------------------------------------------------------------------------*/   
 #map { display: block; height: 550px; width: 100%; }
+
+
+
+/*------------------------------------------------------------------------------*/
+/*  Product Page
+/*------------------------------------------------------------------------------*/   
+.add_to_cart{
+    background-color: #c3002f;
+    padding: 8px 12px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.add_to_cart:hover{
+    color: #fff;
+}
+
+.product_price{
+    color: #c3002f;
+    font-size: 16px;
+    font-weight: 600;
+}
