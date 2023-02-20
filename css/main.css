@@ -1914,6 +1914,15 @@ nav.main-menu .megamenu-content .title{
   }
 }
 
+@media (min-width: 1600px) {
+    .main-topbar{
+        padding: 0px 180px;
+    }
+    .main-header{
+        padding: 0px 180px;
+    }
+}
+
 @media (max-width: 1400px) {
     .banner_slider.banner_slider_wide {
       max-width: 100%;

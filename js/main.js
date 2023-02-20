@@ -372,9 +372,9 @@ $(document).ready(function(e) {
     });
     $(document).ready(function() {
     var e = '<div class="prt_floting_customsett">'+
-                '<a href="https://support.preyantechnosys.com/" class="tmtheme_fbar_icons"><i class="fa fa-headphones"></i><span>Support</span></a>'+
-                '<a href="https://preyantechnosys.com/" class="tmtheme_fbar_icons"><i class="themifyicon themifyicon ti-pencil"></i><span>Customization</span></a>'+
-                '<a href="https://1.envato.market/yRqL9D" class="tmtheme_fbar_icons"><i class="themifyicon ti-shopping-cart"></i><span class="buy_link">Buy<span></span></span></a>'+
+                '<a href="#" class="tmtheme_fbar_icons"><i class="fa fa-facebook"></i><span>Facebook</span></a>'+
+                '<a href="#" class="tmtheme_fbar_icons"><i class="fa fa-linkedin"></i><span>Linkdin</span></a>'+
+                '<a href="#" class="tmtheme_fbar_icons"><i class="fa fa-instagram"></i><span class="buy_link">Instagram<span></span></span></a>'+
                 '<div class="clearfix"></div>'+
             '</div>';
 
